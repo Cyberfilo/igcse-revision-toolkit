@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Personal content (users bring their own)
+papers/*
+!papers/.gitkeep
+resources/*
+!resources/.gitkeep
+_inbox/*
+!_inbox/.gitkeep
+_originals/*
+!_originals/.gitkeep
+flashcards/*.json
+!flashcards/.gitkeep
+!flashcards/README.md
+notes/*/
+!notes/.gitkeep
+!notes/README.md
+
+# Personal syllabus
+syllabus/*.pdf
+syllabus/topics.yaml
+
+# Planning + AI artifacts
+.claude/
+CLAUDE.md
