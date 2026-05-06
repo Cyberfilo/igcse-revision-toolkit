@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ripasso 0654 — IGCSE Co-ordinated Sciences</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <link rel="stylesheet" href="/static/vendor/katex/katex.min.css" />
+  <script defer src="/static/vendor/katex/katex.min.js"></script>
+  <script defer src="/static/vendor/katex/contrib/mhchem.min.js"></script>
+  <script defer src="/static/vendor/katex/contrib/auto-render.min.js"></script>
+</head>
+<body>
+  <aside id="sidebar">
+    <div class="brand">
+      <div class="brand-logo">0654</div>
+      <div class="brand-meta">
+        <div class="brand-title">Ripasso</div>
+        <div class="brand-sub">Co-ordinated Sciences</div>
+      </div>
+    </div>
+    <nav id="nav">
+      <a href="#/coverage" data-route="coverage"><span class="nav-icon">▣</span> Coverage</a>
+      <a href="#/notes"    data-route="notes"><span class="nav-icon">✎</span> Notes</a>
+      <a href="#/cards"    data-route="cards"><span class="nav-icon">⎘</span> Flashcards</a>
+      <a href="#/sheets"   data-route="sheets"><span class="nav-icon">◫</span> Review Sheets</a>
+      <a href="#/map"      data-route="map"><span class="nav-icon">⊛</span> Map</a>
+      <a href="#/resources" data-route="resources"><span class="nav-icon">▤</span> Resources</a>
+      <a href="#/search"   data-route="search"><span class="nav-icon">⌕</span> Search</a>
+    </nav>
+    <div id="paper-filter" class="paper-filter">
+      <div class="paper-filter-label">Papers</div>
+      <label><input type="checkbox" value="22" checked /> P22</label>
+      <label><input type="checkbox" value="42" checked /> P42</label>
+      <label><input type="checkbox" value="62" checked /> P62</label>
+    </div>
+    <div class="sidebar-footer">
+      <div id="status-pill" class="status-pill">…</div>
+      <div class="kbd-hint">Press <kbd>/</kbd> to search</div>
+    </div>
+  </aside>
+
+  <main id="main">
+    <header id="topbar">
+      <div id="crumbs" class="crumbs"></div>
+      <div class="topbar-actions">
+        <input id="quick-search" class="quick-search" placeholder="Search notes & cards…" />
+      </div>
+    </header>
+    <section id="view"></section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
