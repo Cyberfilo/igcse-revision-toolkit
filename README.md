@@ -105,8 +105,3 @@ Subject codes are free-form. Use whatever your syllabus uses. To switch from 065
 
 This repo does not contain any Cambridge International or third-party copyrighted material. Past papers, mark schemes, and official syllabus content remain the property of Cambridge International Examinations and are not redistributed here. Bring your own copies (legally obtainable through your school or Cambridge's website).
 
-## License
-
-MIT. See `LICENSE`.
-
-Built for personal study. If it helps you pass your IGCSE, that's the goal. If you find a bug or want a feature, open an issue.
